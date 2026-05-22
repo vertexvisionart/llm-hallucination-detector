@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Data — not redistributable
+data/*.parquet
+data/*.csv
+data/outputs*/
+data/artifacts*/
+logs/
+
+# Model artefacts
+*.bin
+*.pt
+*.pth
+*.cbm
+*.joblib
+*.safetensors
+hf_cache/
+
+# Secrets
+.env
+.env.*

@@ -1,0 +1,14 @@
+Required external model for this bundle:
+
+- Hugging Face repo: `ai-sage/GigaChat3-10B-A1.8B-bf16`
+
+Place the downloaded snapshot here:
+
+- `hf_cache/gigachat3_local/`
+
+Minimum required files expected by the code:
+- `hf_cache/gigachat3_local/config.json`
+- `hf_cache/gigachat3_local/tokenizer.json`
+
+After that, run:
+- `./RUN_SOLID_V1.sh`
